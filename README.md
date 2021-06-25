@@ -11,3 +11,6 @@
 * As each region is added to the foreground mosaic, create a “change map” of where the foreground has been changed.
 * This map is important because in subsequent frames, you want to assure that there is no intersection between this map, and the new foreground region detected.
 * Repeat the process of capturing a new foreground region, making sure it does not overlap with a previous region, and merging in the new foreground region, until you reach a good stopping point
+
+## Results
+![](Mosaic%20-%201800.png)
